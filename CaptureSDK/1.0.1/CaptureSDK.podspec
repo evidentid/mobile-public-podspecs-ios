@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   }
 
   s.swift_version = '4.2'
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
   s.vendored_frameworks = 'CaptureSDK.framework'
   s.preserve_paths = 'CaptureSDK.framework'
 
